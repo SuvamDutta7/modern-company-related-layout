@@ -1,0 +1,185 @@
+body{
+    
+    padding-bottom: 20px ;
+    
+    color: #5a5a5a;
+    
+font-family: 'Acme', sans-serif;
+
+
+
+    
+}
+
+
+
+.navbar-wrapper{
+    
+    position: absolute;
+    
+    top:0;
+    
+    right:0;
+    
+    left:0;
+    
+    z-index: 20;
+    
+}
+
+
+.navbar-wrapper > .container{
+    
+    
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+
+.navbar-wrapper  .navbar {
+    
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+/*this is basically required when the whole will shrinked it up and whole width , height automatically changed (starts)*/
+
+.navbar-wrapper .navbar .container{
+    
+    width: auto;
+    
+}
+
+/*this is basically required when the whole will shrinked it up and whole width , height automatically changed (ends)*/
+
+
+.carousel{
+    
+   height: 500px;
+   margin-bottom: 50px; 
+    
+}
+
+.carousel .item{
+    
+    height: 500px;
+    background-color: #777;
+    
+    
+}
+
+
+
+.carousel-inner > .item > img {
+    
+    position: absolute;
+    
+    height: 500px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+/*for font style of p tag starts */
+
+.container > .carousel-caption >  h1  {
+    
+/*   font-family: 'Cabin Sketch', cursive;*/
+
+    
+}
+
+/*for font style of p tag ends */
+
+
+/*for team memeber styling starts here */
+
+.team .col-lg-4{
+    
+    text-align: center;
+    
+    margin-bottom: 20px;
+}
+
+.team h2{
+    
+    color:chocolate;
+    
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.team p{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+    color: rgba(50,50,50,0.7);
+    
+}
+
+
+.mickey{
+    
+    
+    padding-left: 50px;
+    
+    padding-top: 60px;
+    
+    padding-bottom: 20px;
+    
+ 
+}
+
+
+.content .content-image{
+    
+    border-radius: 25px;
+    
+}
+
+
+
+
+
+.content{
+    
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+.footer-content{
+    
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    
+    padding-right: 20px;
+    
+    padding-left: 20px;
+    
+    text-align:center;
+    
+    background-color: floralwhite;
+    
+    opacity: 0.5;
+
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
